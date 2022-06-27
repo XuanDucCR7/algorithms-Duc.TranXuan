@@ -9,7 +9,7 @@ function searchList(list, number){
             return i + 1;
         }
     }
-    return "khong tim thay phan tu do trong mang";
+    return false;
 }
 
 console.log(searchList(arr, 3));

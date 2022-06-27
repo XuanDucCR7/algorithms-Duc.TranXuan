@@ -43,7 +43,7 @@ function searchAndPrintArray(list, number){
             return i + 1;
         }
     }
-    return "khong co phan tu do trong mang";
+    return false;
 }
 
 console.log(searchAndPrintArray(arr, 3));

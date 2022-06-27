@@ -20,7 +20,7 @@ function findProduct(listProduct, categoryId) {
     if(temp.length != 0){
         return temp;
     }
-    return "Khong co san pham nao";
+    return false;
 }
 
 console.log(findProduct(products, '20'));

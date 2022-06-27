@@ -16,7 +16,7 @@ function findProduct(listProduct, nameProduct) {
             return listProduct[i];
         }
     }
-    return "Khong co san pham";
+    return false;
 }
 
 console.log(findProduct(products, 'CPU'));
